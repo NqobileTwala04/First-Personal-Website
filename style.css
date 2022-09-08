@@ -171,56 +171,6 @@ header .navbar ul li a:hover {
     padding: 1rem 0;
 }
 
-.about .row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 1rem 0;
-}
-
-.about .row .info {
-    flex: 1 1 48rem;
-    padding: 2rem 1rem;
-    padding-left: 6rem;
-}
-
-.about .row .info h3 {
-    font-size: 2rem;
-    color: var(--skyblue);
-    padding: 1rem 0;
-    font-weight: normal;
-}
-
-.about .row .info h3 span {
-    color: #eee;
-    padding:0 .5rem;
-}
-
-.about .row .counter {
-    flex: 1 1 48rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.about .row .counter .box {
-    width: 50rem;
-    background: #222;
-    text-align: center;
-    padding: 2rem;
-    margin: 2rem;
-}
-
-.about .row .counter .box span {
-    font-size: 4rem;
-    color: var(--skyblue);
-}
-
-.about .row .counter .box h3 {
-    font-size: 1.9rem;
-    color: #fff;
-}
 .education .box-container {
     display: flex;
     align-items: center;
@@ -239,7 +189,7 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box span {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     background: #222;
     color:#fff;
     border-radius: 5rem;
@@ -247,14 +197,14 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box h3 {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     color: #fff;
     padding-top: 2rem ;
 
 }
 
 .education .box-container .box p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #eee;
     padding-top: 1.2rem;
 }
@@ -270,6 +220,45 @@ header .navbar ul li a:hover {
     font-size: 2rem;
     color: #fff;
     background: var(--skyblue);
+}
+
+.achievements .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.achievements .row .info {
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.achievements .row .counter {
+    flex: 1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.achievements .row .counter .box {
+    width: 55rem;
+    background: #222;
+    text-align: center;
+    padding: 5rem;
+    margin: 2rem;
+}
+
+.achievements .row .counter .box span {
+    font-size: 4rem;
+    color: var(--skyblue);
+}
+
+.achievements .row .counter .box h3 {
+    font-size: 1.9rem;
+    color: #fff;
 }
 
 .contact .row {
@@ -303,7 +292,7 @@ header .navbar ul li a:hover {
 
 .contact .row .content .Info h3 i {
     padding: right;
-    color: var(--skyblue)
+    color: var(--skyblue);
 }
 
 @media (max-width: 1200px) {
